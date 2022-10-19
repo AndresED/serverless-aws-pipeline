@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sls": "serverless"
+  },
+  "devDependencies": {
+    "@sparticuz/chrome-aws-lambda": "^17.1.3",
+    "serverless": "^3.22.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
