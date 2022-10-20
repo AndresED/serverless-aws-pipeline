@@ -5,14 +5,12 @@ phases:
     runtime-versions:
       nodejs: 12
     commands:
+      - n 14.18.3
       - npm install -g serverless
       - npm install
   build:
     commands:
       - serverless deploy
-  post_build:
-    commands:
-      - eco "run tests here"
 cache:
   paths:
     - node_modules
