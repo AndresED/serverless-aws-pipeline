@@ -1,7 +1,5 @@
 "use strict";
-
 const chromeLambda = require("@sparticuz/chrome-aws-lambda");
-
 module.exports.generate = async (event) => {
   const { body } = event;
   const { rawHtml } = JSON.parse(body);
